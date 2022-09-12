@@ -1,0 +1,5 @@
+node_modules
+exports/*
+praat_formants_python
+praat_formants_python/*
+AUDIO

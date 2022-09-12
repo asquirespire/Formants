@@ -1,0 +1,25 @@
+{
+	"name": "synthvowel",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "make synthetic vowels",
+	"main": "index.js",
+	"scripts": {
+		"test": "tsc && rollup -c && node app.js",
+		"synthesize": "tsc && rollup -c && node app.js",
+		"start": "node app.js"
+	},
+	"author": "Jeevan K | JRF, SPIRE Lab, IISc, Bangalore",
+	"license": "ISC",
+	"dependencies": {
+		"dsp-collection": "^0.2.4",
+		"fs": "^0.0.1-security",
+		"klatt-syn": "^1.0.4"
+	},
+	"devDependencies": {
+		"@rollup/plugin-json": "^4.1.0",
+		"@types/node": "^17.0.23",
+		"rollup": "^2.70.1",
+		"rollup-plugin-node-resolve": "^5.2.0"
+	}
+}
